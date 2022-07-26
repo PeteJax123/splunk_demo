@@ -15,6 +15,6 @@ provider "splunk" {
 
 resource "splunk_apps_local" "terraform_splunk_app" {
   filename         = true
-  name             = "/tmp/terraform-cloud-for-splunk_005.tgz"
+  name             = "https://github.com/PeteJax123/splunk_demo.git/terraform-cloud-for-splunk_005.tgz"
   explicit_appname = "terraform_cloud_for_splunk"
 }
