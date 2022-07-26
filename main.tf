@@ -9,8 +9,8 @@ terraform {
 
 provider "splunk" {
   url                  = "splunk01.corp.local:8089"
-  username             = "user"
-  password             = "password"
+  username             = "djames2"
+  password             = "802758#L@L@43v3r"
 }
 
 resource "splunk_apps_local" "terraform_splunk_app" {
